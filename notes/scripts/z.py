@@ -1,4 +1,9 @@
+from notes.models import Note
 
-print(5)
+def run():
+
+	n = Note(title='example', content='This is a test.')
+
+	n.save()
 # def run():
 #   print("Test")
